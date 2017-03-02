@@ -219,7 +219,7 @@ def read_result(m):
 def traffic_flow(text,search,search1,chatid):
     print "in func traffic_flow"
     if 'destination' in search:
-        f = open('F:/2016-17/Master Thesis/Prototype1/version1/Version1/converted.csv',
+        f = open('converted.csv',
                  'rU')
         csv_f = csv.reader(f)
 
@@ -351,7 +351,7 @@ def traffic_flow(text,search,search1,chatid):
 
     elif 'road' in search:
         print search1
-        f = open('F:/2016-17/Master Thesis/Prototype1/version1/Version1/converted.csv',
+        f = open('converted.csv',
                  'rU')
         csv_f = csv.reader(f)
         for row in csv_f:
@@ -374,7 +374,7 @@ def traffic_flow(text,search,search1,chatid):
 
 def traffic_speed(text,search,search1,chatid):
     if 'destination' in search:
-        f = open('F:/2016-17/Master Thesis/Prototype1/version1/Version1/converted.csv', 'rU')
+        f = open('converted.csv', 'rU')
         csv_f = csv.reader(f)
 
         # matching intent searched in database
@@ -449,7 +449,7 @@ def traffic_speed(text,search,search1,chatid):
 
     elif 'road' in search:
         print search1
-        f = open('F:/2016-17/Master Thesis/Prototype1/version1/Version1/converted.csv', 'rU')
+        f = open('converted.csv', 'rU')
         csv_f = csv.reader(f)
         for row in csv_f:
             if search1 in row[6] and 'TrafficSpeed' in row[2]:
