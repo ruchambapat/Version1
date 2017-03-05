@@ -1,0 +1,14 @@
+appdirs==1.4.2
+click==6.7
+Flask==0.12
+itsdangerous==0.24
+Jinja2==2.9.5
+MarkupSafe==0.23
+packaging==16.8
+pyparsing==2.1.10
+pyTelegramBotAPI==2.3.0
+requests==2.7.0
+six==1.10.0
+telebot==0.0.3
+telegram==0.0.1
+Werkzeug==0.11.15
