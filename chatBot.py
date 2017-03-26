@@ -12,11 +12,10 @@ sys.setrecursionlimit(100000)
 
 
 #Tokens
-# old token RMB bot: 233174191:AAFgwu11WhSh1xvBIVaWlW84VHibS_aO5Hw
-# token rmbak bot: 346717713:AAEYGT22JiJ9x0ORkULtrieyWQGwhWc23cA
-TOKEN = '313305206:AAGl_YjPd512zqfnx5J58D7FqNWstElLtiY'
+
+TOKEN = ''
 url = "http://localhost:5000/parse"
-#gmaps = googlemaps.Client(key='AIzaSyDqItGt0yCKJK8dFYkzxzTHe_C6ZFLnPAI')
+
 
 
 knownUsers = []
